@@ -3,7 +3,7 @@ import MyButton from "./MyButton";
 import { Link } from "react-router";
 export default function Header() {
   return (
-    <nav className=" text-white bg-gradient-to-r from-green-800 to-gray-950 flex justify-between px-32 h-18 items-center ">
+    <nav className="text-white bg-gradient-to-r from-green-800 to-gray-950 flex justify-between px-32 h-18 items-center ">
       <div className="brand_logo">
         <span className="text-3xl font-semibold">Ashwani Expense Tracker</span>
       </div>
@@ -25,7 +25,7 @@ export default function Header() {
             <Link to={"/login"}>Login</Link>
           </li>
         </ul>
-        <MyButton
+        {/* <MyButton
           hoverColor={"hover:bg-blue-500"}
           backgroundColor={"bg-blue-900"}
           text={"Login"}
@@ -38,7 +38,7 @@ export default function Header() {
             console.log("register fun");
           }}
           text={"Register"}
-        />
+        /> */}
       </div>
     </nav>
   );

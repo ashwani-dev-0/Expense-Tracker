@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <nav className=" text-white bg-gradient-to-r from-green-800 to-gray-950 flex justify-between px-32 h-18 items-center ">
       <div className="brand_logo">
-        <span className="text-3xl font-semibold">Smart Expense Tracker</span>
+        <span className="text-3xl font-semibold">Ashwani Expense Tracker</span>
       </div>
       <div className="flex gap-5  items-center">
         <ul className="flex gap-5 hover:cursor-pointer">

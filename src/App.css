@@ -1,9 +1,7 @@
 /* 🔹 Reset & Universal Rules */
 * {
-  margin: 0;
-  padding: ;
   box-sizing: border-box;
-  max-width: 100%;   /* koi element screen ke bahar na nikle */
+  max-width: auto;   /* koi element screen ke bahar na nikle */
 }
 
 /* 🔹 Body setup */
